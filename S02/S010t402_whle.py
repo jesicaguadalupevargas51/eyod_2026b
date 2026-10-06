@@ -11,6 +11,7 @@ import time
 #crear las variables para
 #el problema 
 n= 100
+n_original = n
 the_sum = 0
 
 #tomando el tiempo 1
@@ -32,3 +33,4 @@ print(f"la suma es{the_sum}")
 elapsed_time = round((timestamp_02-timestamp_01) * 1e6,2)
 print(f"Tiempo de ejecucion: {elapsed_time} us")
 
+print((n_original, elapsed_time,the_sum))
