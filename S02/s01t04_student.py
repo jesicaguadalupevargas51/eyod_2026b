@@ -27,3 +27,5 @@ def check_student(input_student, student_list):
 
 #probando algoritmo
 check_student("Walter", student_list_01)
+
+#calcular O(2)
