@@ -28,18 +28,14 @@ for repetition in range(1,11):
 
     #🕛 tomo el tiempo 1 
     timestamp_01 = time.time()
-
     #sumo los "n" numeros
     n = repetition*500
     #guardo el resultado en result
     result= sum_of_n(n)
-
     #🕐 tomando el tiempo final 
     timestamp_2 = time.time()
-
     #claculando el tiempo
     elapsed_time = round ((timestamp_2-timestamp_01) * 1e6,2)
-
     # agregar la tripleta de los
     # datos al dataset
     dataset.append( (n,elapsed_time,result) )
