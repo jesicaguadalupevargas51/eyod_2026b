@@ -41,4 +41,8 @@ try:
 except:
   print("⚠️numero no encontrado!!!")
 
-#BUSQUEDA por indice 
+#Asignamos valor en
+try: 
+  my_array[100]= 3
+except: 
+   print("⚠️indice no existe!!!")
